@@ -7,7 +7,7 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 1190,
+        width: 1250,
         height: 160, //212
         padding: const EdgeInsets.fromLTRB(30.0, 0, 30.0, 0),
         // color: Colors.blue,

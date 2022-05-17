@@ -17,6 +17,7 @@ class _MediaViewState extends State<MediaView> {
           color: Colors.white,
           width: 750,
           child: Wrap(
+            spacing: 27,
             children: List.generate(
                 _controller.mediaViewOne.length,
                 (index) => MediaViewItems(
@@ -69,7 +70,7 @@ class _MediaViewItemsState extends State<MediaViewItems> {
         });
       },
       child: Container(
-        margin: EdgeInsets.fromLTRB(0, 0, 18, 30),
+        margin: EdgeInsets.fromLTRB(0, 0, 0, 30),
         width: 232,
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Image.network(widget.image),
@@ -94,28 +95,30 @@ class _MediaViewItemsState extends State<MediaViewItems> {
                 fontWeight: FontWeight.w600),
           ),
           SizedBox(height: 4),
-          Row(
-            children: [
-              Text(
-                widget.media,
-                style: TextStyle(
-                  fontSize: 12,
-                  color: Color.fromRGBO(80, 80, 80, 1),
-                ),
-              ),
-              SizedBox(width: 2),
-              const Icon(
-                Icons.circle,
-                size: 3,
-                color: Color.fromRGBO(128, 128, 128, 1),
-              ),
-              SizedBox(width: 2),
-              Text(
-                widget.time,
-                style: TextStyle(
-                    fontSize: 12, color: Color.fromRGBO(128, 128, 128, 1)),
-              ),
-            ],
+          RichText(
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              text: TextSpan(
+                  children: [
+                    TextSpan(
+                        style: const TextStyle( fontSize: 12,
+                          color: Color.fromRGBO(80, 80, 80, 1),),
+                        text: widget.media
+                    ),
+                    const WidgetSpan(child: SizedBox(width: 2),),
+                    const WidgetSpan(
+                        alignment: PlaceholderAlignment.middle,
+                        child: Icon(Icons.circle, size: 3,
+                          color: Color.fromRGBO(128, 128, 128, 1),)
+                    ),
+                    const WidgetSpan(child: SizedBox(width: 2),),
+                    TextSpan(
+                      text: widget.time,
+                      style: const TextStyle(
+                          fontSize: 12, color: Color.fromRGBO(128, 128, 128, 1)),
+                    )
+                  ]
+              )
           )
         ]),
       ),

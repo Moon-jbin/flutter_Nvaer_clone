@@ -8,7 +8,7 @@ class MainBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.fromLTRB(30, 20, 30, 20),
-      width: 1190,
+      width: 1250,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [LeftBody(), RightBody()],

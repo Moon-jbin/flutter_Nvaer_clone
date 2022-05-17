@@ -15,7 +15,7 @@ class MenuItemsState extends State<MenuItems> {
       child: Container(
         // color: Colors.black,
         padding: const EdgeInsets.fromLTRB(35, 0, 35, 0),
-        width: 1190,
+        width: 1250,
         height: MediaQuery.of(context).size.height,
         // color: Colors.black,
         child: Row(

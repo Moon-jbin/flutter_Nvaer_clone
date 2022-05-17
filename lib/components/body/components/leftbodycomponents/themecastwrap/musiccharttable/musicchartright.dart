@@ -2,56 +2,56 @@ import 'package:flutter/material.dart';
 import 'package:flutter_naver_clone/menucontroller.dart';
 import 'package:get/get.dart';
 
-class MusicChartLeft extends StatelessWidget {
+class MusicChartRight extends StatelessWidget {
   final MenuController _controller = Get.put(MenuController());
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(0, 15, 45, 0),
-      // color: Colors.blue,
-      width: 350,
-      height: 407,
-      child: ListView.separated(
-        itemCount: _controller.musicChartLeft.length,
-        separatorBuilder: (context, index) {
-          return Divider();
-        },
-        itemBuilder: (BuildContext context, int index) => MusicChartLeftItems(
-            title: _controller.musicChartLeft[index]["title"],
-            image: _controller.musicChartLeft[index]["image"],
-            person: _controller.musicChartLeft[index]["person"],
-            num: _controller.musicChartLeft[index]["num"],
-            index: index,
-            album: _controller.musicChartLeft[index]["album"]),
-      ),
-    );
+        margin: EdgeInsets.only(top: 15),
+        // color: Colors.blue,
+        width: 350,
+        height: 407,
+        child: ListView.separated(
+            itemCount: _controller.musicChartRight.length,
+            separatorBuilder: (context, index) {
+              return Divider();
+            },
+            itemBuilder: (BuildContext context, int index) =>
+                MusicChartRightItems(
+                  title: _controller.musicChartRight[index]["title"],
+                  image: _controller.musicChartRight[index]["image"],
+                  person: _controller.musicChartRight[index]["person"],
+                  num: _controller.musicChartRight[index]["num"],
+                  index: index,
+                  album: _controller.musicChartRight[index]["album"]
+                )));
   }
 }
 
-class MusicChartLeftItems extends StatefulWidget {
+class MusicChartRightItems extends StatefulWidget {
   final String title;
   final String image;
   final String person;
   final int num;
-  final int index;
   final String album;
+  final int index;
 
-  const MusicChartLeftItems(
-      {Key? key,
-      required this.title,
-      required this.image,
-      required this.person,
-      required this.num,
-      required this.index,
-      required this.album})
-      : super(key: key);
+  const MusicChartRightItems({
+    Key? key,
+    required this.title,
+    required this.image,
+    required this.person,
+    required this.num,
+    required this.album,
+    required this.index
+  }) : super(key: key);
 
   @override
-  _MusicChartLeftItemsState createState() => _MusicChartLeftItemsState();
+  _MusicChartRightItemsState createState() => _MusicChartRightItemsState();
 }
 
-class _MusicChartLeftItemsState extends State<MusicChartLeftItems> {
+class _MusicChartRightItemsState extends State<MusicChartRightItems> {
   late bool _isHover = false;
   late bool _isHover2 = false;
 
@@ -76,7 +76,7 @@ class _MusicChartLeftItemsState extends State<MusicChartLeftItems> {
               fontWeight: FontWeight.w600),
         ),
       ),
-      subtitle: InkWell(
+      subtitle:InkWell(
         onTap: () {},
         onHover: (value) {
           setState(() {
@@ -94,7 +94,7 @@ class _MusicChartLeftItemsState extends State<MusicChartLeftItems> {
                 ),
                 children: [
                   TextSpan(text: widget.person),
-                 const WidgetSpan(child: SizedBox(width: 8)),
+                  const WidgetSpan(child: SizedBox(width: 8)),
                   const WidgetSpan(
                       alignment: PlaceholderAlignment.middle,
                       child: Icon(
@@ -106,24 +106,23 @@ class _MusicChartLeftItemsState extends State<MusicChartLeftItems> {
                   TextSpan(text: widget.album)
                 ])),
       ),
-
       leading: Wrap(
         spacing: 22,
         children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Text(
-                "${widget.num}",
-                style: const TextStyle(
-                    color: Colors.black,
-                    fontSize: 15,
-                    fontWeight: FontWeight.w600),
-              ),
-              widget.index == 3 ?
-              const Icon(Icons.arrow_drop_up, color: Colors.red,) : const SizedBox(width: 24, height: 20,)
-            ],
+        Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Text(
+            "${widget.num}",
+            style: const TextStyle(
+                color: Colors.black,
+                fontSize: 15,
+                fontWeight: FontWeight.w600),
           ),
+          widget.index == 3 || widget.index == 1?
+          const Icon(Icons.arrow_drop_up, color: Colors.red,) : const SizedBox(width: 24, height: 20,)
+        ],
+      ),
           SizedBox(
             width: 48,
             height: 48,
@@ -136,25 +135,18 @@ class _MusicChartLeftItemsState extends State<MusicChartLeftItems> {
         children: [
           InkWell(
             onTap: () {},
-            onHover: (value) {
-              setState(() {
-                // _isHover = value;
-              });
-            },
             child: Icon(
               Icons.play_arrow,
               color: Colors.red,
             ),
           ),
           InkWell(
-              onTap: () {},
-              onHover: (value) {
-                setState(() {
-                  // _isHover = value;
-                });
-              },
-              child:
-                  Icon(Icons.queue_music_outlined, color: Colors.grey.shade400))
+            onTap: () {},
+            child: Icon(
+              Icons.queue_music_outlined,
+              color: Colors.grey.shade400,
+            ),
+          )
         ],
       ),
     );
