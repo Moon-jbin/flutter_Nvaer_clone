@@ -1,3 +1,5 @@
+import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class NewsNotice extends StatefulWidget {
@@ -45,17 +47,33 @@ class NewsNoticeState extends State<NewsNotice> {
                 });
               },
               child: Container(
-                // color: Colors.blue,
-                width: 310,
-                child: Text(
-                  " decoration: isHover ? TextDecoration.underline : null decoration: isHover ? TextDecoration.underline : null",
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                      fontSize: 13,
-                      decoration: isHover ? TextDecoration.underline : null),
-                ),
-              )),
-          SizedBox(width: 150), // 차후 조정할 예정
+                  // color: Colors.blue,
+                  width: 310,
+                  child: CarouselSlider(
+                      options: CarouselOptions(
+                        scrollDirection: Axis.vertical,
+                        autoPlay: true,
+                        height: 49,
+                        viewportFraction: 1,
+                      ),
+                      items: [
+                        "KDI, 올해 성장률 전망 3.0%→2.8%…물가상승률 1.7%→4.2%",
+                        "일본 원자력규제위, 후쿠시마 오염수 해양방출 계획 승인",
+                        "방한하는 바이든, 삼성전자 평택 반도체 공장 찾는 이유는"
+                      ]
+                          .map((i) => Builder(builder: (BuildContext context) {
+                                return SizedBox(
+                                  width: 310,
+                                  child: Text(i, style: TextStyle(
+                                    overflow: TextOverflow.ellipsis,
+                                    decoration: isHover ? TextDecoration.underline : null,
+                                    fontSize: 13,
+                                    color: const Color.fromRGBO(32, 32, 32, 1)
+                                  ),),
+                                );
+                              }))
+                          .toList()))),
+          const SizedBox(width: 150), // 차후 조정할 예정
           InkWell(
             onTap: () {},
             child: const Text(

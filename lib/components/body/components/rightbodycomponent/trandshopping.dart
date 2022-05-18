@@ -162,9 +162,12 @@ class _TrandShoppingState extends State<TrandShopping> {
           Container(
               margin: EdgeInsets.only(top: 12),
               decoration: BoxDecoration(
-                  color: Colors.white,
-                  border: Border.all(
-                      width: 0.7, color: Color.fromRGBO(218, 225, 230, 1))),
+                color: Colors.white,
+                border: Border.all(
+                  width: 0.7,
+                  color: Color.fromRGBO(218, 225, 230, 1),
+                ),
+              ),
               width: 350,
               child: selectedIndex == 0
                   ? ProductComponent()

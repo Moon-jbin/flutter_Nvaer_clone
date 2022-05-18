@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_naver_clone/components/header/components/weatherslider.dart';
 
 class MenuItems extends StatefulWidget {
   @override
@@ -15,10 +16,11 @@ class MenuItemsState extends State<MenuItems> {
       child: Container(
         // color: Colors.black,
         padding: const EdgeInsets.fromLTRB(35, 0, 35, 0),
-        width: 1250,
+        width: 1200,
         height: MediaQuery.of(context).size.height,
         // color: Colors.black,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             InkWell(
               onTap: () {},
@@ -238,7 +240,7 @@ class MenuItemsState extends State<MenuItems> {
                 ) 
                 ),
             Spacer(),
-            Text("날씨"),
+            WeatherSlider(),
           ],
         ),
       ),

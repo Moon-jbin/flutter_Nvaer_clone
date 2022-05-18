@@ -3,8 +3,13 @@ import 'package:flutter_naver_clone/components/body/components/rightbodycomponen
 import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productadplus/profuctadplus.dart';
 import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productitems/productitems_1.dart';
 import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productitems/productitems_2.dart';
+import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productitems/productitems_3.dart';
+import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productitems/productitems_4.dart';
+import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productitems/productitems_5.dart';
 import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productitemsone.dart';
 import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/shoppingnews/shoppingnews.dart';
+
+import 'oneplusdeal/oneplusdeal.dart';
 
 class ProductComponent extends StatefulWidget {
   @override
@@ -138,42 +143,11 @@ class _ProductComponentState extends State<ProductComponent> {
                     : pageIndex == 2
                         ? ProductItems_2()
                         : pageIndex == 3
-                            ? Text("3")
+                            ? ProductItems_3()
                             : pageIndex == 4
-                                ? Text("4")
+                                ? ProductItems_4()
                                 : pageIndex == 5
-                                    ? Text("5")
-                                    : pageIndex == 6
-                                        ? Text("6")
-                                        : pageIndex == 7
-                                            ? Text("7")
-                                            : pageIndex == 8
-                                                ? Text("8")
-                                                : pageIndex == 9
-                                                    ? Text("9")
-                                                    : pageIndex == 10
-                                                        ? Text("10")
-                                                        : pageIndex == 11
-                                                            ? Text("11")
-                                                            : pageIndex == 12
-                                                                ? Text("12")
-                                                                : pageIndex ==
-                                                                        13
-                                                                    ? Text("13")
-                                                                    : pageIndex ==
-                                                                            14
-                                                                        ? Text(
-                                                                            "14")
-                                                                        : pageIndex ==
-                                                                                15
-                                                                            ? Text("15")
-                                                                            : pageIndex == 16
-                                                                                ? Text("16")
-                                                                                : pageIndex == 17
-                                                                                    ? Text("17")
-                                                                                    : pageIndex == 18
-                                                                                        ? Text("18")
-                                                                                        : Text(""),
+                                    ? ProductItems_5(): Text(""),
                 //버튼
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -303,6 +277,23 @@ class _ProductComponentState extends State<ProductComponent> {
                     child: ProductAdPlus(),
                   ),
                 ),
+                Center(
+                  child: Container(
+                    margin: EdgeInsets.only(top: 10),
+                    padding: EdgeInsets.only(top: 12),
+                    width: 350,
+                    decoration: const BoxDecoration(
+                      color: Colors.white,
+                      border: Border(
+                        top: BorderSide(
+                          width: 1,
+                          color: Color.fromRGBO(228, 232, 235, 1),
+                        ),
+                      ),
+                    ),
+                    child: OnePlusDeal(),
+                  ),
+                )
               ],
             ),
           )

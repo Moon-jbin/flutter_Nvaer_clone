@@ -626,89 +626,229 @@ class MenuController extends GetxController {
       ];
 
   List get productItemsPage_3 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220511_22/d8fa3b01-1594-4ea2-826b-a87996209044.jpg?type=f214_292",
-      "title": "1년치 쟁여둘기회",
-      "subTitle": "라엘생리대 50%",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220517_6/c6273569-3228-428d-b63c-6bf578d4aa0f.jpg?type=f214_292",
-      "title": "여름신상 10%할인",
-      "subTitle": "전상품 무료배송",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220516_6/e814642c-6455-481b-90d5-b9782e77139d.jpg?type=f214_292",
-      "title": "일상복으로도OK~!",
-      "subTitle": "핏예쁜 운동복1+1",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220516_0/a1445543-8ca5-46bf-98e7-9431b8273c43.jpg?type=f214_292",
-      "title": "역대급~히트!",
-      "subTitle": "최대 80% SALE",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220517_0/57f461e2-ccd1-4bac-9d7d-98fe527db2fa.jpg?type=f214_292",
-      "title": "아망떼 여름이불",
-      "subTitle": "52% 초특가 할인",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220513_5/9f1b14e4-78ec-40ac-b533-93b68029e65f.jpg?type=f214_292",
-      "title": "물대신 마셔봐~",
-      "subTitle": "마법의 숫자 44티",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220208_14/cfc28024-a884-4933-bbbc-a043e13c6d34.jpg?type=f214_292",
-      "title": "5월 특가오픈!",
-      "subTitle": "14K 최대 30%할인",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220503_1/d9424fa1-e16f-4b07-8cdd-98c23a65d433.jpg?type=f214_292",
-      "title": "반응폭발 원피스",
-      "subTitle": "BEST후기극찬!",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220315_14/800e4477-4c90-4240-806b-b5a4c1b6ce51.jpg?type=f214_292",
-      "title": "차오르는 모발",
-      "subTitle": "지금 58% 할인",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220516_24/4447fbe4-5ac2-456f-91f8-b766684a8ac5.jpg?type=f214_292",
-      "title": "미소페 인기HOT",
-      "subTitle": "지금 43% SALE",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220517_8/3807b361-44d6-4620-b082-bed5fbcf38be.jpg?type=f214_292",
-      "title": "인견이불 하나로~",
-      "subTitle": "잠자리가 시원해~",
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220509_14/2b200ddf-d53d-41b4-a0b5-2fbdf2c54978.jpg?type=f214_292",
-      "title": "빨래가 안깨끗해?",
-      "subTitle": "세탁기부터청소해",
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220512_13/0326afbf-93be-40bb-ab22-aac8a6b573dd.jpg?type=f214_292",
+          "title": "상큼달콤 0칼로리",
+          "subTitle": "무료배송+56%SALE",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_19/d6358a0f-1189-404e-b862-e0300dd74d50.jpg?type=f214_292",
+          "title": "젝시믹스7주년!",
+          "subTitle": "UP TO 73%",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_5/d3da953d-fa76-4954-8dd8-a045f7487bb7.jpg?type=f214_292",
+          "title": "COOL~편안한팬츠!",
+          "subTitle": "최대70%~BIG할인!",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220516_28/9bca743d-b4f4-49b4-92b5-b36bdd808022.jpg?type=f214_292",
+          "title": "실시간 인기 BEST",
+          "subTitle": "5부SET 50% SALE",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220512_9/b5656b02-7892-4a33-920e-059172a3bfb3.jpg?type=f214_292",
+          "title": "독보적 퀄리티",
+          "subTitle": "할인~신상샌들",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_5/9f1b14e4-78ec-40ac-b533-93b68029e65f.jpg?type=f214_292",
+          "title": "물대신 마셔봐~",
+          "subTitle": "마법의 숫자 44티",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220208_14/cfc28024-a884-4933-bbbc-a043e13c6d34.jpg?type=f214_292",
+          "title": "5월 특가오픈!",
+          "subTitle": "14K 최대 30%할인",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220503_1/d9424fa1-e16f-4b07-8cdd-98c23a65d433.jpg?type=f214_292",
+          "title": "반응폭발 원피스",
+          "subTitle": "BEST후기극찬!",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_26/ba167536-474c-49b2-bbed-cd064e696cae.jpg?type=f214_292",
+          "title": "딱3시간타임세일",
+          "subTitle": "11KG전부2만원대!",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220511_21/775f038a-e1c3-4fec-a401-db3255ee004f.jpg?type=f214_292",
+          "title": "어름맞이 최대73%",
+          "subTitle": "야옹이작가 땀복",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_8/3807b361-44d6-4620-b082-bed5fbcf38be.jpg?type=f214_292",
+          "title": "인견이불 하나로~",
+          "subTitle": "잠자리가 시원해~",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220509_14/2b200ddf-d53d-41b4-a0b5-2fbdf2c54978.jpg?type=f214_292",
+          "title": "빨래가 안깨끗해?",
+          "subTitle": "세탁기부터청소해",
+        },
+      ];
 
+  List get productItemsPage_4 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_19/182d5367-425e-425d-8b80-80af48d6a1e2.jpg?type=f214_292",
+          "title": "후기가 증명한다!",
+          "subTitle": "초강력 파워충천",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_6/c6273569-3228-428d-b63c-6bf578d4aa0f.jpg?type=f214_292",
+          "title": "여름신상 10%할인",
+          "subTitle": "전상품 무료배송",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220516_6/e814642c-6455-481b-90d5-b9782e77139d.jpg?type=f214_292",
+          "title": "일상복으로도OK~!",
+          "subTitle": "핏예쁜 운동복1+1",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220511_24/8f2df0a6-29c0-4da7-ad17-37fd25ad7364.jpg?type=f214_292",
+          "title": "예민한 피부도 ok",
+          "subTitle": "1+1 득템의 기회",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_0/57f461e2-ccd1-4bac-9d7d-98fe527db2fa.jpg?type=f214_292",
+          "title": "아망떼 여름이불",
+          "subTitle": "52% 초특가 할인",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_5/9f1b14e4-78ec-40ac-b533-93b68029e65f.jpg?type=f214_292",
+          "title": "물대신 마셔봐~",
+          "subTitle": "마법의 숫자 44티",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220208_14/cfc28024-a884-4933-bbbc-a043e13c6d34.jpg?type=f214_292",
+          "title": "5월 특가오픈!",
+          "subTitle": "14K 최대 30%할인",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220510_1/e7ed9f1d-ea2a-488e-a2df-528a5a30e44a.jpg?type=f214_292",
+          "title": "아직도 안먹어요?",
+          "subTitle": "하루한병 건강UP",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220315_14/800e4477-4c90-4240-806b-b5a4c1b6ce51.jpg?type=f214_292",
+          "title": "차오르는 모발",
+          "subTitle": "지금 58% 할인",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220516_24/4447fbe4-5ac2-456f-91f8-b766684a8ac5.jpg?type=f214_292",
+          "title": "미소페 인기HOT",
+          "subTitle": "지금 43% SALE",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220506_1/974230bb-b9e6-4a5c-b63e-1dfc4bd1f1a8.jpg?type=f214_292",
+          "title": "잘자야~잘산다!",
+          "subTitle": "초특가UpTo85% ↓",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220512_20/35c96558-80dc-4a5a-8c04-b7c1b1e3a6bd.jpg?type=f214_292",
+          "title": "메트로시티",
+          "subTitle": "타임피스 론칭",
+        },
+      ];
 
-
-
-
-
-
-
-
-
+  List get productItemsPage_5 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_2/a15979d0-1de0-4ca8-b84d-139801a11572.jpg?type=f214_292",
+          "title": "진한우유맛 가득!",
+          "subTitle": "매일 먹고싶은 맛",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220516_19/ed0a0f88-e4ff-4bfd-9503-678d30f50579.jpg?type=f214_292",
+          "title": "여름상품 최대89%",
+          "subTitle": "바람솔솔~레깅스",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_4/63161df4-f4e9-4f63-9286-834f019b8cac.jpg?type=f214_292",
+          "title": "전상품 SALE!",
+          "subTitle": "원단이 좋은 옷~",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220516_0/a1445543-8ca5-46bf-98e7-9431b8273c43.jpg?type=f214_292",
+          "title": "역대급~히트!",
+          "subTitle": "최대 80% SALE",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_0/57f461e2-ccd1-4bac-9d7d-98fe527db2fa.jpg?type=f214_292",
+          "title": "아망떼 여름이불",
+          "subTitle": "52% 초특가 할인",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_5/9f1b14e4-78ec-40ac-b533-93b68029e65f.jpg?type=f214_292",
+          "title": "물대신 마셔봐~",
+          "subTitle": "마법의 숫자 44티",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220208_14/cfc28024-a884-4933-bbbc-a043e13c6d34.jpg?type=f214_292",
+          "title": "5월 특가오픈!",
+          "subTitle": "14K 최대 30%할인",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220503_1/d9424fa1-e16f-4b07-8cdd-98c23a65d433.jpg?type=f214_292",
+          "title": "반응폭발 원피스",
+          "subTitle": "BEST후기극찬!",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_14/e93bcf6d-858e-4cc4-b3db-edb508df8bac.jpg?type=f214_292",
+          "title": "예쁜봄신상가득",
+          "subTitle": "러블리~코디세트",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220516_24/4447fbe4-5ac2-456f-91f8-b766684a8ac5.jpg?type=f214_292",
+          "title": "미소페 인기HOT",
+          "subTitle": "지금 43% SALE",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_8/3807b361-44d6-4620-b082-bed5fbcf38be.jpg?type=f214_292",
+          "title": "인견이불 하나로~",
+          "subTitle": "잠자리가 시원해~",
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_9/13850847-1675-474f-80db-8777471b7c3e.jpg?type=f214_292",
+          "title": "여름엔 리넨ITEM",
+          "subTitle": "반응폭발 신상~!",
+        },
+      ];
 
   //쇼핑뉴스 아이템들
   List get shoppingItems_1 => [
@@ -1048,167 +1188,321 @@ class MenuController extends GetxController {
           "content": "인기클렌징 1+1+1+1 특가!"
         },
       ];
+
   List get productBeautyItems_2 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220509_5/56d6beb3-50a2-48b5-a00a-4dbe25f735e9.jpg",
-      "content": "약국판매 잡티크림 50%"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20210609_23/99ba908e-65c7-4ca4-9b96-f08ba30588d2.jpg",
-      "content": "지금 허벅지 확인해봐!"
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220509_5/56d6beb3-50a2-48b5-a00a-4dbe25f735e9.jpg",
+          "content": "약국판매 잡티크림 50%"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20210609_23/99ba908e-65c7-4ca4-9b96-f08ba30588d2.jpg",
+          "content": "지금 허벅지 확인해봐!"
+        },
+      ];
+
   List get productBeautyItems_3 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220513_9/31b70a4e-8628-450b-9621-75dc08b5dcec.jpg",
-      "content": "샌들신기전 각질관리 필수"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220104_10/effc46da-9ba8-4d3f-8553-349e62170f15.jpg",
-      "content": "뽀득뽀득 약산성 멘돌비누"
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_9/31b70a4e-8628-450b-9621-75dc08b5dcec.jpg",
+          "content": "샌들신기전 각질관리 필수"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220104_10/effc46da-9ba8-4d3f-8553-349e62170f15.jpg",
+          "content": "뽀득뽀득 약산성 멘돌비누"
+        },
+      ];
+
   List get productBeautyItems_4 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220509_5/56d6beb3-50a2-48b5-a00a-4dbe25f735e9.jpg",
-      "content": "약국판매 잡티크림 50%"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220322_3/4d9856bc-3f8e-4bcd-8c45-a6fd753cc51f.jpg",
-      "content": "차오르는 모발 바이브랩"
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220509_5/56d6beb3-50a2-48b5-a00a-4dbe25f735e9.jpg",
+          "content": "약국판매 잡티크림 50%"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220322_3/4d9856bc-3f8e-4bcd-8c45-a6fd753cc51f.jpg",
+          "content": "차오르는 모발 바이브랩"
+        },
+      ];
+
   List get productBeautyItems_5 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220408_24/a703d8cb-39e5-4a98-9cc8-838b77b0e780.jpg",
-      "content": "각질 끝! 롱래스팅젤 2+1"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220406_24/d6733adc-f33b-4800-bb58-5e56b0ed5c98.jpg",
-      "content": "생생한 물광밀착"
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220408_24/a703d8cb-39e5-4a98-9cc8-838b77b0e780.jpg",
+          "content": "각질 끝! 롱래스팅젤 2+1"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220406_24/d6733adc-f33b-4800-bb58-5e56b0ed5c98.jpg",
+          "content": "생생한 물광밀착"
+        },
+      ];
+
   List get productBeautyItems_6 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220215_29/5074a362-cb2f-42cf-a6eb-b749b81caf17.jpg",
-      "content": "후기로 증명 예비신부 크림"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20210528_10/bf9118ce-d658-4697-933c-fcbb54dfc510.jpg",
-      "content": "선크림만 발라도 생기발랄"
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220215_29/5074a362-cb2f-42cf-a6eb-b749b81caf17.jpg",
+          "content": "후기로 증명 예비신부 크림"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20210528_10/bf9118ce-d658-4697-933c-fcbb54dfc510.jpg",
+          "content": "선크림만 발라도 생기발랄"
+        },
+      ];
+
   List get productBeautyItems_7 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220303_13/419408b8-ad79-42f0-b700-552061a91c05.jpg",
-      "content": "탱글탱글~목주름패치"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220214_24/bbc7aa17-cb64-408c-9ae1-61ec3668d807.jpg",
-      "content": "놀라운효과! 회복패드1+1"
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220303_13/419408b8-ad79-42f0-b700-552061a91c05.jpg",
+          "content": "탱글탱글~목주름패치"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220214_24/bbc7aa17-cb64-408c-9ae1-61ec3668d807.jpg",
+          "content": "놀라운효과! 회복패드1+1"
+        },
+      ];
+
   List get productBeautyItems_8 => [
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220511_0/19ec88e8-3405-45d9-a56a-ce9f81602e34.jpg",
-      "content": "화장 잘 먹는 꿀피부 비결"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220513_9/31b70a4e-8628-450b-9621-75dc08b5dcec.jpg",
-      "content": "샌들신기전 각질관리 필수"
-    },
-  ];
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220511_0/19ec88e8-3405-45d9-a56a-ce9f81602e34.jpg",
+          "content": "화장 잘 먹는 꿀피부 비결"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220513_9/31b70a4e-8628-450b-9621-75dc08b5dcec.jpg",
+          "content": "샌들신기전 각질관리 필수"
+        },
+      ];
 
   // 디지털 레저
 
-  List get productDigitalItems_1 =>[
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220504_15/ae2df0db-ef2e-4c21-b388-5bf5dfc1bc00.jpg",
-      "content": "아령도 거뜬! 손목보호대"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220426_17/a6a2d31d-c150-4e78-a055-4e9079d4e5be.jpg",
-      "content": "슬림라인 레깅스1+1"
-    }
-  ];
+  List get productDigitalItems_1 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220504_15/ae2df0db-ef2e-4c21-b388-5bf5dfc1bc00.jpg",
+          "content": "아령도 거뜬! 손목보호대"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220426_17/a6a2d31d-c150-4e78-a055-4e9079d4e5be.jpg",
+          "content": "슬림라인 레깅스1+1"
+        }
+      ];
 
-  List get productDigitalItems_2 =>[
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220517_28/8652c463-732e-484a-b3c4-d6418f182f06.jpg",
-      "content": "홈케어 끝판왕"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220510_5/459252d5-6dde-4332-bb05-9ea8b21348b2.jpg",
-      "content": "골프룩 뭐살지 고민?"
-    }
-  ];
-  List get productDigitalItems_3 =>[
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20210906_19/fa30bd62-3a59-4081-9849-723c1644af54.jpg",
-      "content": "어? 무릎이 안 아프네!"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20210429_2/740717e2-f6fa-4b38-bb72-83e017f8ba80.jpg",
-      "content": "16컬러 향균99% 마스크2+1"
-    }
-  ];
-  List get productDigitalItems_4 =>[
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220225_17/7c5e1c80-1013-461c-9dd6-6bb528b387c2.jpg",
-      "content": "주목! 탄수화물 40% 감소"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20210203_18/fc938b9f-4827-44be-b536-3c4b505acf28.jpg",
-      "content": "홈트해야지? 요가삭스1+1"
-    }
-  ];
-  List get productDigitalItems_5 =>[
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220224_0/54698321-814e-4f38-980d-b46039b623b9.jpg",
-      "content": "이런게 있다니? 신세계야!"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220510_6/9e382df3-5552-4101-8f7b-6926db1767f4.jpg",
-      "content": "공식스토어 특별 혜택!"
-    }
-  ];
-  List get productDigitalItems_6 =>[
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220516_17/402e8e50-aceb-4c46-b38e-5dba002d6ef5.jpg",
-      "content": "골프웨어 3종 4만원대!"
-    },
-    {
-      "image":
-      "https://s.pstatic.net/shopping.phinf/20220429_19/3b178ad0-9700-4540-b3a8-757613ef4fdf.jpg",
-      "content": "이런 케이스 봤어?"
-    }
-  ];
+  List get productDigitalItems_2 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220517_28/8652c463-732e-484a-b3c4-d6418f182f06.jpg",
+          "content": "홈케어 끝판왕"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220510_5/459252d5-6dde-4332-bb05-9ea8b21348b2.jpg",
+          "content": "골프룩 뭐살지 고민?"
+        }
+      ];
 
+  List get productDigitalItems_3 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20210906_19/fa30bd62-3a59-4081-9849-723c1644af54.jpg",
+          "content": "어? 무릎이 안 아프네!"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20210429_2/740717e2-f6fa-4b38-bb72-83e017f8ba80.jpg",
+          "content": "16컬러 향균99% 마스크2+1"
+        }
+      ];
+
+  List get productDigitalItems_4 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220225_17/7c5e1c80-1013-461c-9dd6-6bb528b387c2.jpg",
+          "content": "주목! 탄수화물 40% 감소"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20210203_18/fc938b9f-4827-44be-b536-3c4b505acf28.jpg",
+          "content": "홈트해야지? 요가삭스1+1"
+        }
+      ];
+
+  List get productDigitalItems_5 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220224_0/54698321-814e-4f38-980d-b46039b623b9.jpg",
+          "content": "이런게 있다니? 신세계야!"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220510_6/9e382df3-5552-4101-8f7b-6926db1767f4.jpg",
+          "content": "공식스토어 특별 혜택!"
+        }
+      ];
+
+  List get productDigitalItems_6 => [
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220516_17/402e8e50-aceb-4c46-b38e-5dba002d6ef5.jpg",
+          "content": "골프웨어 3종 4만원대!"
+        },
+        {
+          "image":
+              "https://s.pstatic.net/shopping.phinf/20220429_19/3b178ad0-9700-4540-b3a8-757613ef4fdf.jpg",
+          "content": "이런 케이스 봤어?"
+        }
+      ];
+
+  // 원쁠딜 아이템들
+  List get onePlusDealItems_1 => [
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220502_0/71f197be-7c8c-40ba-ac86-33e3737a9be7.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220511_8/54d6dc4a-5b2a-4a99-82c8-2a4f604ea75c.jpg",
+          "content": "달콤한 성산 설향메론 1Kg+1Kg",
+          "percent": "45%",
+          "price": "18,900원"
+        },
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220502_28/14a9e358-cf25-498b-a225-c3883f567a11.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220502_14/c8cd19c5-d19c-4756-8de0-de091c861d3e.jpg",
+          "content": "차량용 틈새 사이트쿠션 1개+1개",
+          "percent": "11%",
+          "price": "5,900원"
+        },
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220511_0/1d9cd7a0-be12-4818-9a3e-c524c1afa87a.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220513_0/f02b3db1-7e77-426d-b908-5dac3ce8171c.jpg",
+          "content": "나이키 스우시 반팔티+반바지",
+          "percent": "48%",
+          "price": "39,900원"
+        }
+      ];
+
+  List get onePlusDealItems_2 => [
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220502_22/1f0f8ca6-dbc6-4ffc-beb4-d95e3d79f6ca.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220512_29/96a0f9f0-1cc6-4a8c-b61c-ae2ecbd28d93.jpg",
+          "content": "돈시몬 100% 대용량 착즙주스 1L 3팩+3팩 (외 2L 골라담기)",
+          "percent": "33%",
+          "price": "19,900원"
+        },
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220516_22/bd435aae-84a2-43ba-92b9-b63fcab06b79.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220512_29/ce9d7532-208e-483a-af45-80bb41b50174.jpg",
+          "content": "5종 1세트 베이비 여아 미니 헤어핀 1세트 + 1세트",
+          "percent": "50%",
+          "price": "9,900원"
+        },
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220502_15/3b797f7c-3ea9-47f7-941a-c55e4fd0b4cc.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220502_25/fe1ec69a-236a-42b3-a382-fb7ba9484d09.jpg",
+          "content": "펼쳐서 쓰고 접어서 보관하는 음식보호 커버 1개 + 1개",
+          "percent": "70%",
+          "price": "5,900원"
+        }
+      ];
+
+  List get onePlusDealItems_3 => [
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220502_2/5430ab06-3871-496b-b26f-ac5fca193a4c.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220502_14/f274ef86-5ecb-4e65-8301-da486e5c4375.jpg",
+          "content": "어나더뷰 넉넉한 사이즈 반팔 잠옷 상의 1개+하의 1개",
+          "percent": "44%",
+          "price": "4,900원"
+        },
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220502_17/ec5a493a-62d2-44cd-aaa3-25de1deddd98.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220510_28/41bc3e88-6ae2-499a-bba7-f4664f00c718.jpg",
+          "content": "리큅 초음파 모기퇴치기 전자시계 팔찌 1개 + 1개",
+          "percent": "44%",
+          "price": "28,900원"
+        },
+        {
+          "image1":
+              "https://s.pstatic.net/shopping.phinf/20220509_13/d8cd5800-2032-4c20-bb9f-2b417ed92e94.jpg",
+          "image2":
+              "https://s.pstatic.net/shopping.phinf/20220517_14/694b1e42-7b54-4594-9291-f74197cccfe9.jpg",
+          "content": "AAA등급 신선한 한치 5마리+5마리",
+          "percent": "24%",
+          "price": "12,500원"
+        }
+      ];
+
+  List get FooterAdItems => [
+        {
+          "image":
+              "https://ssl.pstatic.net/tveta/libs/1392/1392834/193276a3f999e9a2429e_20220511095559134.png",
+          "subTitle": "글로벌모바일버전2022",
+          "title": "최신 ICT 산업분야의",
+          "desc": "컨퍼런스와 산업관을",
+          "desc2": "자유롭게 참석,관람하세요!"
+        },
+        {
+          "image":
+              "https://ssl.pstatic.net/tveta/libs/1391/1391532/e24d9eb59a4f33000e2e_20220502170300821.png",
+          "subTitle": "한국문화재재단",
+          "title": "2022 봄 궁중문화축전",
+          "desc": "오늘, 궁을 만나다",
+          "desc2": "5.10.~5.22."
+        },
+        {
+          "image":
+              "https://ssl.pstatic.net/tveta/libs/1287/1287046/1a77f8722c9d71d8b4ce_20220512152603100.jpg",
+          "subTitle": "온스테이지 2.0",
+          "title": "베리코이버니",
+          "desc": "걸리쉬한 하이틴",
+          "desc2": "감성, 로커, 베리코이버니"
+        }
+      ];
+
+  List get creatorsItems => ["크리에이터", "스몰비즈니스"];
+
+  List get partnersItems =>
+      ["SME 풀케어 시스템", "비즈니스 · 광고", "스토어 개설", "지역업체 등록", "엑스퍼트 등록"];
+
+  List get developersItems =>
+      ["네이버 개발자 센터", "오픈 API", "오픈소스", "네이버 D2", "네이버D2SF", "네이버 랩스"];
+
+  List get serviceItems => [
+        {
+          "image":
+              "data:image/png;base64,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",
+          "title": "웨일 브라우저",
+          "desc": "다운받기"
+        },
+        {
+          "image":
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAABkCAMAAAA47XeXAAAAgVBMVEUAAADN5PdGm99Gm99Gm99Gm99Gm95Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gmt9Gm99Gm99Gm99Gm95Gm99Gm99Gm95Gm99Hm99Gm99Gm9/////3+/5cp+LO5PfR5/fO5fdcp+P7/f/zv5GhAAAAInRSTlMA/v7vH9u5qJNgGwb6l8a9uqF9WFUyLxYMCtbVmLCwe4OCj8gzEgAAA0NJREFUaN7NmmFz4iAQhkkwMTHGWrWtWvWuq8mF+/8/8Ey2nb0OhSwQZnw+MHQ7pbjAy2s2gsuiLPJMLpcyy4tyISZltnmHbxw3MzEVr/MUNNL5q5iCt2ccXCN9fhPB7CQYkTsRRlWDlboSAexzGCHfC28OKxhldfDOzBMwePLNTw0sauHFFphshQcLCUwkaQRfXYBPSkrEUBdv3jezcXXhw1ciUhc+fCUidQlH7qzqEk5d2dQlnHxvU5dwVgdXdSGclaiGyamt6hLO1qIu4ZASzcFE092SBprk1jagulvXAAw/qb5N7m176xQYmOPoLymYaK/X65/PNhlagE6LGUhfRM8FjNzuf/73//bHmInzoJEpjMyeWpp9RzGz/PT6+QvMNO2Q+67PPeYZY5h7jDVg5OM+/BGikd13JfDAj/Ad1WLMyEyUwKPT00ypN1GKAljQJtFiFgqRe86eYhbWIvPPPR5d+9pKiIgUwKNJdHXBvW9jyRye1EWLWYfnJcd141Byspizz7gbUyWDuqiW0v15D9g3ZgF86JwyKUgUHJaATUmS5rsEdkkTZLjZS8Alw+skFr8Nl6H6uosShaKOp3Zo+/jgFTDe+wcSfv0yFGfQaLX7tDO0reXOPRuMCG4Q11Y3IiYblWgzS7R+h31qdRtlGB7zikeUckz+AB3a8FuMqD7Cd2nhUHLOEIkLubQIkEuLxIdwEwUy3HyXxsbgPMJcGuGox+TSIugxuTQ+KHIaAS5N92eIIuMT5tJoPfHy5q9yKoXLelLuKRri0mjMQdhwTPw6Sv8pzKXhFyhNilEwkSCXRrnAnaPnJdyl0UrqXircpeHVglnv+62K4NJo3lFcGmWd79KO7OQoXAE8XNO6tIQGxj7fpfHTwk8RubQLWEGvgTNGKzj01fixunCMCCYcvSSlaFwUyKVx86J3bczpUR3zimq1LqdosAUbJF54ar+uk5Gju436mPTk8ZAXFdO93HRYTesUVgf3B+y0XdxLfdVputmfKp/iBtNjyl3c0kzUwtJIWewIPvAL9LOyWLsV9WAps3VRzh6hJBm3oOqsRKfHLGYzS/GP+iLBuBKdqkd+iWPkFZTHf4Em4us/uhI5qss/6zK5u8+AXpwAAAAASUVORK5CYII=",
+          "title": "프로젝트 꽃",
+          "desc": "바로가기"
+        }
+      ];
+
+  List get corpListItems =>
+      ["회사소개", "인재채용", "제휴제안", "이용약관", "개인정보처리방침", "청소년보호정책", "네이버 정책", "고객센터"];
 
   GlobalKey<ScaffoldState> get scaffoldKey => _scaffoldKey;
 

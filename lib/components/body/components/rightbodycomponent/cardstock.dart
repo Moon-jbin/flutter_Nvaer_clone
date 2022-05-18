@@ -41,6 +41,7 @@ class _CardStockState extends State<CardStock> {
               child: CarouselSlider(
                 carouselController: _carouselController,
                 options: CarouselOptions(
+                  autoPlay: true,
                   height: 25,
                   viewportFraction: 1,
                 ),

@@ -8,17 +8,19 @@ class MenuBar extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: 52,
       decoration: BoxDecoration(
-          color: Colors.white,
-          boxShadow: [
-            BoxShadow(
-                color: Colors.grey.withOpacity(0.1),
-                blurRadius: 2,
-                spreadRadius: 0,
-                offset: const Offset(0, 2))
-          ],
-          border: Border(
-              top: BorderSide(color: Colors.grey.shade300, width: 0.5),
-              bottom: BorderSide(color: Colors.grey.shade300, width: 0.5))),
+        color: Colors.white,
+        boxShadow: [
+          BoxShadow(
+              color: Colors.grey.withOpacity(0.1),
+              blurRadius: 2,
+              spreadRadius: 0,
+              offset: const Offset(0, 2))
+        ],
+        border: Border(
+          top: BorderSide(color: Colors.grey.shade300, width: 0.5),
+          bottom: BorderSide(color: Colors.grey.shade300, width: 0.5),
+        ),
+      ),
       // color: Colors.blue,
       child: MenuItems(),
     );

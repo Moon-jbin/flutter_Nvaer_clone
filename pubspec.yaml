@@ -66,6 +66,7 @@ flutter:
     - assets/images/naver_main_ad.jpg
     - assets/images/naver_top_story.jpeg
     - assets/images/mobile_logo.png
+    - assets/images/naver_oneplus_deal.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

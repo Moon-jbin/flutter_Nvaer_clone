@@ -11,6 +11,7 @@ class MainBody extends StatelessWidget {
       width: 1250,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [LeftBody(), RightBody()],
       ),
     );
