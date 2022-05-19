@@ -17,15 +17,15 @@ class _MainPageState extends State<MainPage> {
 
   late int scrollIndex = 2;
 
-  scrollListener() async {
+  scrollListener() {
     _scrollController.offset >= 200 ? scrollIndex = 1 : scrollIndex = 2;
-    print(scrollIndex);
+    // print(scrollIndex);
   }
 
   @override
   void initState() {
     _scrollController.addListener(() {
-      scrollListener();
+      // scrollListener();
     });
     super.initState();
   }
@@ -50,11 +50,12 @@ class _MainPageState extends State<MainPage> {
               ),
             ),
           ),
-          Container(
-            width: MediaQuery.of(context).size.width,
-            height: 65,
-            color: Colors.blue,
-          )
+          // scrollIndex == 1 ?
+          // Container(
+          //   width: MediaQuery.of(context).size.width,
+          //   height: 65,
+          //   color: Colors.blue,
+          // ) : Text("hi")
         ],
       ),
     );

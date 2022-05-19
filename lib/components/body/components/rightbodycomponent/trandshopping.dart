@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/mencomponent.dart';
 import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/productcomponent.dart';
+import 'package:flutter_naver_clone/components/body/components/rightbodycomponent/trandshoppingcomponent/shoppingmallcomponent.dart';
 
 class TrandShopping extends StatefulWidget {
   @override
@@ -172,9 +174,9 @@ class _TrandShoppingState extends State<TrandShopping> {
               child: selectedIndex == 0
                   ? ProductComponent()
                   : selectedIndex == 1
-                      ? Text("쇼핑몰")
+                      ? ShoppingMallComponent()
                       : selectedIndex == 2
-                          ? Text("MEN")
+                          ? MenComponent()
                           : Container())
         ],
       ),

@@ -469,6 +469,88 @@ class MenuController extends GetxController {
         },
       ];
 
+  List get MorePostOne => [
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20220515_10%2FDbVEM_1652624226811Yaew7_JPEG%2F16712ab9-d442-4122-8ad5-a8e005f26ceb_B.jpg%22&type=nf464_260",
+      "kind": "TV 예능",
+      "content":
+      "배우 윤여정의 본격 미국 스케쥴 시작! 캘리클락슨 쇼 대기실 대공개! (ft.캘리의 선물) | tvN 220515 방송",
+      "media": "뜻밖의 여정",
+      "time": "12시간 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20220515_82%2FUhAiV_1652626322876Fj2m1_JPEG%2F643c3c6b-934f-4dea-88de-4f3359bb9d40.jpg%22&type=nf464_260",
+      "kind": "TV 예능",
+      "content": "박군♡한영, 미우새 막내의 달콤한 결혼식!",
+      "media": "미운 우리 새끼",
+      "time": "12시간 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20220515_249%2FmqTib_1652617923951jPJx4_JPEG%2Fe760066c-c6e2-4be8-b90e-ebcbf7f2bce9_B.jpg%22&type=nf464_260",
+      "kind": "TV 드라마",
+      "content": "한지민에게 매일 걸려오는 전화의 정체...? | tvN 220515 방송",
+      "media": "우리들의 블루스",
+      "time": "13시간 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fphinf.pstatic.net%2Ftvcast%2F20200720_283%2FkQsIn_1595241613695GVJUQ_JPEG%2F1595241519203.jpg%22&type=nf464_260",
+      "kind": "웹드라마",
+      "content": "국뽕 차오르는 '갓 오브 하이스쿨' 애니메이션 속 서울 배경",
+      "media": "네이버 웹툰",
+      "time": "7분 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20220515_168%2FzcNPu_1652624528662AzzPd_JPEG%2F320bb7d2-9063-4e69-8bfc-54b7d890475f_B.jpg%22&type=nf464_260",
+      "kind": "TV 예능",
+      "content":
+      "＂선생님 수다 잘 떨고 오세요~＂ 윤여정 인생 최초 미국 토크쇼 출연기 #캘리클락슨쇼 | tvN 220515 방송",
+      "media": "뜻밖의 여정",
+      "time": "11시간 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fphinf.pstatic.net%2Ftvcast%2F20220209_64%2Fcp2Jv_16443928382761M5FD_PNG%2F1644392835685.png%22&type=nf464_260",
+      "kind": "웹예능",
+      "content": "[홀인러브] 혼란하다 혼란해..ㄷㄷ 첫날밤부터 바로 속마음 퍼팅?",
+      "media": "홀인러브 (Hole in Love Part1)",
+      "time": "7분 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fphinf.pstatic.net%2Ftvcast%2F20220317_145%2FDZjfY_1647513831140gueWA_PNG%2F1647510289245.png%22&type=nf464_260",
+      "kind": "웹드라마",
+      "content": "짝녀랑 키스했는데 이제 사귀는 건가요? [플렌즈] 서연대 22학번 편 - 최종화",
+      "media": "플레이리스트 오리지널 PLAYLIST ORIGINALS",
+      "time": "7분 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20220515_254%2Fs1sPm_16526263257035dnJF_JPEG%2Fb0df864a-7b5a-4627-9380-f80f661ddedb.jpg%22&type=nf464_260",
+      "kind": "TV 예능",
+      "content": "미우새 멤버들, 축가 준비한 김종민 말에 당황!",
+      "media": "미운 우리 새끼",
+      "time": "12시간 전"
+    },
+    {
+      "image":
+      "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20220515_75%2F3iOBk_1652624524409wbslv_JPEG%2F20220515_231038_629_1.jpg%22&type=nf464_260",
+      "kind": "TV 드라마",
+      "content": "[소망 엔딩] 시간이 지나도 손석구의 안녕을 바라는 김지원 | JTBC 220515 방송",
+      "media": "나의 해방일지",
+      "time": "11시간 전"
+    }
+  ];
+
+
+
+
+
+
   //   Body right 상품 아이템
   List get productHeader_1 => ["쿠팡", "G마켓", "옥션", "11번가", "티몬", "올리브영"];
 
