@@ -16,7 +16,7 @@ class ProductItems_1 extends StatelessWidget {
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
               childAspectRatio: 1 / 1.8,    // 가로 / 세로
-              mainAxisSpacing: 1, // 수평
+              mainAxisSpacing: 3, // 수평
               crossAxisSpacing: 5 //수직
               ),
           itemBuilder: (BuildContext context, int index) => ProductItemsPage_1(
@@ -58,7 +58,30 @@ class _ProductItemsPage_1State extends State<ProductItemsPage_1> {
       },
       child: Column(
         children: [
-          Image.network(widget.image),
+          Container(
+            width: 107.31,
+            height: 146,
+            color: Colors.white,
+            child: Stack(
+              children: [
+                AnimatedPositioned(
+                    duration: Duration(milliseconds: 400),
+                  curve: Curves.easeOutCubic,
+                  width: 107.31,
+                  height:  _isHover ? 151 : 146,
+                  child: Container(
+                    width: 112.31,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        fit: BoxFit.fitHeight,
+                        image: NetworkImage(widget.image)
+                      )
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
           SizedBox(height: 4),
           Text(
             widget.title,

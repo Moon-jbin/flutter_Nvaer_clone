@@ -33,9 +33,29 @@ class _TopStoryListState extends State<TopStoryList> {
                       Container(
                         width: 98,
                         height: 98,
-                        child: Image.network(
-                            "https://s.pstatic.net/static/www/mobile/edit/20220511/cropImg_196x196_94208592723324837.jpeg"),
+                        color: Colors.white,
+                        child: Stack(
+                          children: [
+                            AnimatedPositioned(
+                                duration: Duration(milliseconds: 1000),
+                                curve: Curves.easeOutCubic,
+                                width: 98,
+                                height: isHoverOne? 110 : 98,
+                              child: Container(
+                                width: 110,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    fit: BoxFit.fitHeight,
+                                    image: NetworkImage("https://s.pstatic.net/static/www/mobile/edit/20220511/cropImg_196x196_94208592723324837.jpeg")
+                                  )
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
                       ),
+
+
                       const SizedBox(width: 17),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -89,8 +109,26 @@ class _TopStoryListState extends State<TopStoryList> {
                   Container(
                     width: 98,
                     height: 98,
-                    child: Image.network(
-                        "https://s.pstatic.net/static/www/mobile/edit/20220511/cropImg_196x196_94208341254980712.jpeg"),
+                    color: Colors.white,
+                    child: Stack(
+                      children: [
+                        AnimatedPositioned(
+                          duration: Duration(milliseconds: 400),
+                          curve: Curves.easeOutCubic,
+                          width: 98,
+                          height: isHoverTwo? 105 : 98,
+                          child: Container(
+                            width: 110,
+                            decoration: BoxDecoration(
+                                image: DecorationImage(
+                                    fit: BoxFit.fitHeight,
+                                    image: NetworkImage("https://s.pstatic.net/static/www/mobile/edit/20220511/cropImg_196x196_94208341254980712.jpeg")
+                                )
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                   const SizedBox(width: 17),
                   Column(
@@ -146,8 +184,26 @@ class _TopStoryListState extends State<TopStoryList> {
                   Container(
                     width: 98,
                     height: 98,
-                    child: Image.network(
-                        "https://s.pstatic.net/static/www/mobile/edit/20220511/cropImg_196x196_94208546303718197.jpeg"),
+                    color: Colors.white,
+                    child: Stack(
+                      children: [
+                        AnimatedPositioned(
+                          duration: Duration(milliseconds: 1000),
+                          curve: Curves.easeOutCubic,
+                          width: 98,
+                          height: isHoverThree? 110 : 98,
+                          child: Container(
+                            width: 110,
+                            decoration: BoxDecoration(
+                                image: DecorationImage(
+                                    fit: BoxFit.fitHeight,
+                                    image: NetworkImage("https://s.pstatic.net/static/www/mobile/edit/20220511/cropImg_196x196_94208546303718197.jpeg")
+                                )
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                   const SizedBox(width: 17),
                   Column(

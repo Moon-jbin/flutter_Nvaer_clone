@@ -16,7 +16,8 @@ class ToDaySaleZoneThree extends StatelessWidget {
             crossAxisCount: 2,
             childAspectRatio: 327/417,
             mainAxisSpacing: 1,
-            crossAxisSpacing: 5),
+            crossAxisSpacing: 5
+        ),
         itemBuilder: (BuildContext context, index) => toDaySaleZoneItemsThree(
           image: _controller.toDaySaleZoneItemsThree[index]["image"],
           title: _controller.toDaySaleZoneItemsThree[index]["title"],
@@ -65,8 +66,31 @@ class _toDaySaleZoneItemsThreeState extends State<toDaySaleZoneItemsThree> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.network(widget.image),
-          SizedBox(height: 8),
+          Container(
+            width: 163.5,
+            height: 163,
+            color: Colors.white,
+            child: Stack(
+              children: [
+                AnimatedPositioned(
+                  duration: Duration(milliseconds: 400),
+                  curve: Curves.easeOutCubic,
+                  width: 163.5,
+                  height:  _isHover ? 168 : 163,
+                  child: Container(
+                    width: 168.5,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            fit: BoxFit.fitHeight,
+                            image: NetworkImage(widget.image)
+                        )
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
+          SizedBox(height: 6),
           Text(
             widget.title,
             style: TextStyle(

@@ -75,7 +75,31 @@ class _MediaViewItemsState extends State<MediaViewItems> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.network(widget.image),
+            Container(
+              width: 232,
+              height: 130,
+              color: Colors.white,
+              child: Stack(
+                children: [
+                  AnimatedPositioned(
+                    duration: Duration(milliseconds: 400),
+                    curve: Curves.easeOutCubic,
+                    width: 232,
+                    height:  _isHover ? 140 : 130,
+                    child: Container(
+                      width: 240,
+                      decoration: BoxDecoration(
+                          image: DecorationImage(
+                              fit: BoxFit.fitHeight,
+                              image: NetworkImage(widget.image)
+                          )
+                      ),
+                    ),
+
+                  )
+                ],
+              ),
+            ),
             SizedBox(height: 10),
             Text(
               widget.kind,

@@ -58,7 +58,30 @@ class _shoppingMallItemsBottomState extends State<shoppingMallItemsBottom> {
           width: 108,
           child: Column(
             children: [
-              Image.network(widget.image),
+              Container(
+                width: 108,
+                height: 107,
+                color: Colors.white,
+                child: Stack(
+                  children: [
+                    AnimatedPositioned(
+                        duration: Duration(milliseconds: 400),
+                      curve: Curves.easeOutCubic,
+                      width: 108,
+                      height: _isHover ? 112 : 107,
+                      child: Container(
+                        width: 113,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            fit: BoxFit.fitHeight,
+                            image: NetworkImage(widget.image)
+                          )
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
               SizedBox(height: 10),
               Text(
                 widget.title,

@@ -63,11 +63,31 @@ class _FooterAdItemsState extends State<FooterAdItems> {
         width: 330,
         child: Row(
           children: [
-            Image.network(
-              widget.image,
+            Container(
               width: 160,
               height: 86,
+              color: Colors.white,
+              child: Stack(
+                children: [
+                  AnimatedPositioned(
+                      duration: Duration(milliseconds: 400),
+                    curve: Curves.easeOutCubic,
+                    width: 160,
+                    height:  _isHover ? 91 : 86,
+                    child: Container(
+                      width: 165,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          fit: BoxFit.fitHeight,
+                          image: NetworkImage(widget.image)
+                        )
+                      ),
+                    ),
+                  )
+                ],
+              ),
             ),
+
             Container(
               padding: EdgeInsets.only(left: 18),
               child: Column(

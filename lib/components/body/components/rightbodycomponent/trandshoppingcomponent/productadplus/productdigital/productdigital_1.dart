@@ -50,7 +50,30 @@ class _productDigitalItems_1State extends State<productDigitalItems_1> {
       },
       child: Column(
         children: [
-          Image.network(widget.image),
+          Container(
+            width: 163.5,
+            height: 163,
+            color: Colors.white,
+            child: Stack(
+              children: [
+                AnimatedPositioned(
+                  duration: Duration(milliseconds: 400),
+                  curve: Curves.easeOutCubic,
+                  width: 163.5,
+                  height:  _isHover ? 168 : 163,
+                  child: Container(
+                    width: 400,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            fit: BoxFit.fitHeight,
+                            image: NetworkImage(widget.image)
+                        )
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
           SizedBox(height: 10),
           Text(
             widget.content,

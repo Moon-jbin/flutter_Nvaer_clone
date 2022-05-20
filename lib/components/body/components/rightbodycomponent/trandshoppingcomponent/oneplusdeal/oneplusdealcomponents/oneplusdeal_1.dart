@@ -64,6 +64,11 @@ class _OnePlusDealItems_1State extends State<OnePlusDealItems_1> {
                       Container(
                         width: 85,
                         height: 60,
+
+
+
+
+
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
                             image: DecorationImage(

@@ -41,6 +41,7 @@ class SearchBar extends StatelessWidget {
                                 const BorderSide(width: 1, color: Colors.green),
                               ),
                               suffixIcon: Container(
+                                color: Colors.transparent,
                                 width: 60,
                                 height: 57,
                                 child: Row(
@@ -48,21 +49,28 @@ class SearchBar extends StatelessWidget {
                                   children: [
                                     InkWell(
                                       onTap: () {},
-                                      child: Icon(Icons.keyboard,
-                                          color: Colors.grey.shade300, size: 21),
+                                      child: Container(
+                                        color: Colors.white,
+                                        child: Icon(Icons.keyboard,
+                                            color: Colors.grey.shade300, size: 21),
+                                      ),
                                     ),
                                     const SizedBox(width: 4),
                                     InkWell(
                                       onTap: () {},
-                                      child: const Icon(
-                                        Icons.arrow_drop_down_sharp,
-                                        color: Color.fromRGBO(25, 206, 96, 1),
+                                      child: Container(
+                                        color: Colors.white,
+                                        child: const Icon(
+                                          Icons.arrow_drop_down_sharp,
+                                          color: Color.fromRGBO(25, 206, 96, 1),
+                                        ),
                                       ),
                                     ),
                                     const SizedBox(width: 10)
                                   ],
                                 ),
-                              )),
+                              )
+                          ),
                         ),
                       ),
                     ],

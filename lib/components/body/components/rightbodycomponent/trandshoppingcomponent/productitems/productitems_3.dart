@@ -58,7 +58,30 @@ class _productItemsPage_3State extends State<productItemsPage_3> {
       },
       child: Column(
         children: [
-          Image.network(widget.image),
+          Container(
+            width: 107.31,
+            height: 146,
+            color: Colors.white,
+            child: Stack(
+              children: [
+                AnimatedPositioned(
+                  duration: Duration(milliseconds: 400),
+                  curve: Curves.easeOutCubic,
+                  width: 107.31,
+                  height:  _isHover ? 151 : 146,
+                  child: Container(
+                    width: 112.31,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            fit: BoxFit.fitHeight,
+                            image: NetworkImage(widget.image)
+                        )
+                    ),
+                  ),
+                )
+              ],
+            ),
+          ),
           SizedBox(height: 4),
           Text(
             widget.title,

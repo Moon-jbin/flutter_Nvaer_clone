@@ -58,11 +58,30 @@ class _playFunItemsPageOneState extends State<playFunItemsPageOne> {
                 width: 139,
                 height: 94,
                 decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: NetworkImage(widget.image), fit: BoxFit.cover),
-                    border: Border.all(
-                        width: .7,
-                        color: const Color.fromRGBO(218, 225, 230, 1))),
+                  border: Border.all(
+                    width: .7,
+                    color:  const Color.fromRGBO(218, 225, 230, 1)
+                  )
+                ),
+                child: Stack(
+                  children: [
+                    AnimatedPositioned(
+                      duration: Duration(milliseconds: 400),
+                      curve: Curves.easeOutCubic,
+                      width: 139,
+                      height:  _isHover ? 99 : 94,
+                      child: Container(
+                        width: 144,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                fit: BoxFit.fitHeight,
+                                image: NetworkImage(widget.image)
+                            )
+                        ),
+                      ),
+                    )
+                  ],
+                ),
               ),
               const SizedBox(width: 13),
               SizedBox(

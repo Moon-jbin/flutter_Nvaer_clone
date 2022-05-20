@@ -123,10 +123,37 @@ class _MusicChartRightItemsState extends State<MusicChartRightItems> {
           const Icon(Icons.arrow_drop_up, color: Colors.red,) : const SizedBox(width: 24, height: 20,)
         ],
       ),
-          SizedBox(
-            width: 48,
-            height: 48,
-            child: Image.network(widget.image),
+          InkWell(
+              onTap: (){},
+              onHover: (value){
+                setState(() {
+                  _isHover = value;
+                });
+              },
+              child: Container(
+                  width: 48,
+                  height: 48,
+                  color:Colors.white,
+                  child: Stack(
+                    children: [
+                      AnimatedPositioned(
+                        duration: Duration(milliseconds: 400),
+                        curve: Curves.easeOutCubic,
+                        width: 48,
+                        height: _isHover ? 50 : 48,
+                        child: Container(
+                          width: 50,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                  fit: BoxFit.fitHeight,
+                                  image: NetworkImage(widget.image)
+                              )
+                          ),
+                        ),
+                      )
+                    ],
+                  )
+              )
           )
         ],
       ),

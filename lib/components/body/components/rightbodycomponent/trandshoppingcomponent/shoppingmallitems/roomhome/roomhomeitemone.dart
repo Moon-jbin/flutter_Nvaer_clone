@@ -58,7 +58,30 @@ class _roomHomeItemsTopState extends State<roomHomeItemsTop> {
           width: 164,
           child: Column(
             children: [
-              Image.network(widget.image),
+              Container(
+                width: 163.5,
+                height: 222,
+                color: Colors.white,
+                child: Stack(
+                  children: [
+                    AnimatedPositioned(
+                      duration: Duration(milliseconds: 400),
+                      curve: Curves.easeOutCubic,
+                      width: 163.5,
+                      height: _isHover ? 227 : 222,
+                      child: Container(
+                        width: 168.5,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                fit: BoxFit.fitHeight,
+                                image: NetworkImage(widget.image)
+                            )
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              ),
               SizedBox(height: 10),
               Text(
                 widget.title,

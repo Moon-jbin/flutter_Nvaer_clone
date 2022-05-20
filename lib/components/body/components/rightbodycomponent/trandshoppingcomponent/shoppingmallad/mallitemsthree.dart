@@ -105,12 +105,31 @@ class _MallItemsTitleState extends State<MallItemsTitle> {
                         width: 107.31,
                         height: 107,
                         decoration: BoxDecoration(
-                            image: DecorationImage(
-                                image: NetworkImage(widget.image1),
-                                fit: BoxFit.cover),
-                            border: Border.all(
-                                width: .7,
-                                color: const Color.fromRGBO(218, 225, 230, 1))),
+                          color: Colors.white,
+                          border: Border.all(
+                            width: .7,
+                            color: const Color.fromRGBO(218, 225, 230, 1),
+                          ),
+                        ),
+                        child: Stack(
+                          children: [
+                            AnimatedPositioned(
+                              duration: Duration(milliseconds:  400),
+                              curve: Curves.easeOutCubic,
+                              width: 107.31,
+                              height: _isHoverItem1 ? 112 : 107,
+                              child: Container(
+                                width: 112.31,
+                                decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                        fit: BoxFit.fitHeight,
+                                        image: NetworkImage(widget.image1)
+                                    )
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                       Text(
                         widget.title1,
@@ -147,12 +166,31 @@ class _MallItemsTitleState extends State<MallItemsTitle> {
                         width: 107.31,
                         height: 107,
                         decoration: BoxDecoration(
-                            image: DecorationImage(
-                                image: NetworkImage(widget.image2),
-                                fit: BoxFit.cover),
-                            border: Border.all(
-                                width: .7,
-                                color: const Color.fromRGBO(218, 225, 230, 1))),
+                          color: Colors.white,
+                          border: Border.all(
+                            width: .7,
+                            color: const Color.fromRGBO(218, 225, 230, 1),
+                          ),
+                        ),
+                        child: Stack(
+                          children: [
+                            AnimatedPositioned(
+                              duration: Duration(milliseconds:  400),
+                              curve: Curves.easeOutCubic,
+                              width: 107.31,
+                              height: _isHoverItem2 ? 112 : 107,
+                              child: Container(
+                                width: 112.31,
+                                decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                        fit: BoxFit.fitHeight,
+                                        image: NetworkImage(widget.image2)
+                                    )
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                       Text(
                         widget.title2,
@@ -189,13 +227,31 @@ class _MallItemsTitleState extends State<MallItemsTitle> {
                           width: 107.31,
                           height: 107,
                           decoration: BoxDecoration(
-                              image: DecorationImage(
-                                  image: NetworkImage(widget.image3),
-                                  fit: BoxFit.cover),
-                              border: Border.all(
-                                  width: .7,
-                                  color:
-                                  const Color.fromRGBO(218, 225, 230, 1))),
+                            color: Colors.white,
+                            border: Border.all(
+                              width: .7,
+                              color: const Color.fromRGBO(218, 225, 230, 1),
+                            ),
+                          ),
+                          child: Stack(
+                            children: [
+                              AnimatedPositioned(
+                                duration: Duration(milliseconds:  400),
+                                curve: Curves.easeOutCubic,
+                                width: 107.31,
+                                height: _isHoverItem3 ? 112 : 107,
+                                child: Container(
+                                  width: 112.31,
+                                  decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                          fit: BoxFit.fitHeight,
+                                          image: NetworkImage(widget.image3)
+                                      )
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
                         ),
                         Text(
                           widget.title3,

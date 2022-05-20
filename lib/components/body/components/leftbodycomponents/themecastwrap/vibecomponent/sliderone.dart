@@ -54,7 +54,30 @@ class _SliderOneItemsState extends State<SliderOneItems> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.network(widget.image),
+            Container(
+              width: 130,
+              height: 130,
+              color: Colors.white,
+              child: Stack(
+                children: [
+                  AnimatedPositioned(
+                      duration: Duration(milliseconds: 400),
+                    curve: Curves.easeOutCubic,
+                    width: 130,
+                    height:  _isHover ? 135 : 130,
+                    child: Container(
+                      width: 135,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          fit: BoxFit.fitHeight,
+                          image: NetworkImage(widget.image)
+                        )
+                      ),
+                    ),
+                  )
+                ],
+              ),
+            ),
             SizedBox(height: 10),
             Text(
               widget.content,
