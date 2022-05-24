@@ -39,39 +39,50 @@ class _ScrollSearchBarState extends State<ScrollSearchBar> {
                 children: [
                   Expanded(
                     child: TextFormField(
+                      cursorColor: Colors.black,
+                      style: TextStyle(
+                        fontSize: 21,
+                        fontWeight: FontWeight.w600
+                      ),
                       decoration: InputDecoration(
                         border: InputBorder.none,
-                          suffixIcon: Container(
-                            color: Colors.transparent,
-                            width: 60,
-                            height: 57,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: [
-                                InkWell(
-                                  onTap: () {},
-                                  child: Container(
-                                    color: Colors.white,
-                                    child: Icon(Icons.keyboard,
-                                        color: Colors.grey.shade300, size: 21),
-                                  ),
-                                ),
-                                const SizedBox(width: 4),
-                                InkWell(
-                                  onTap: () {},
-                                  child: Container(
-                                    color: Colors.white,
-                                    child: const Icon(
-                                      Icons.arrow_drop_down_sharp,
-                                      color: Color.fromRGBO(25, 206, 96, 1),
-                                    ),
-                                  ),
-                                ),
-                                const SizedBox(width: 10)
-                              ],
-                            ),
-                          )
+                        hintText: "검색어를 입력해 주세요.",
+                         hintStyle: TextStyle(
+                           fontSize: 21,
+                           color: Color.fromRGBO(119, 119, 119, .2),
+                           fontWeight: FontWeight.w600
+                         )
                       ),
+                    ),
+                  ),
+                  Container(
+                    color: Colors.transparent,
+                    width: 60,
+                    height: 50,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        InkWell(
+                          onTap: () {},
+                          child: Container(
+                            color: Colors.white,
+                            child: Icon(Icons.keyboard,
+                                color: Colors.grey.shade300, size: 21),
+                          ),
+                        ),
+                        const SizedBox(width: 4),
+                        InkWell(
+                          onTap: () {},
+                          child: Container(
+                            color: Colors.white,
+                            child: const Icon(
+                              Icons.arrow_drop_down_sharp,
+                              color: Color.fromRGBO(25, 206, 96, 1),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: 10)
+                      ],
                     ),
                   ),
                   Container(

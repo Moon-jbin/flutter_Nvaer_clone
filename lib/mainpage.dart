@@ -63,8 +63,9 @@ class _MainPageState extends State<MainPage> {
             ),
           ),
           Positioned(
-            child: _showSearchBar == true
-                ? ShowUpAnimation(
+            child:
+            _showSearchBar == true ?
+            ShowUpAnimation( // Show-Up-Animation 패키지 사용
                     animationDuration: Duration(milliseconds: 400),
                     curve: Curves.easeOutCubic,
                     direction: Direction.vertical,
